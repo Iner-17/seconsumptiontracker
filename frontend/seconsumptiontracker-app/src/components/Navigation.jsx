@@ -9,7 +9,7 @@ function Navigation() {
 
   return (
     <>
-      <nav className="container h-[8vh] bg-lightblue flex items-center justify-between">
+      <nav className="container h-[8vh] bg-lightblue flex items-center justify-between px-15 lg:px-0">
         <h1 className="text-3xl font-semibold font-mont text-gray-900 tracking-widest">
           SECTS
         </h1>
@@ -43,7 +43,7 @@ function Navigation() {
             </Link>
 
             {/* Dropdown Menu */}
-            <ul className="absolute left-0 w-max mt-2 p-3 bg-blue-200 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 divide-y divide-gray-400 translate-y-2 group-hover:translate-y-0">
+            <ul className="absolute left-0 w-max mt-2 p-3 z-15 bg-blue-200 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 divide-y divide-gray-400 translate-y-2 group-hover:translate-y-0">
               <li>
                 <Link
                   to="#"
