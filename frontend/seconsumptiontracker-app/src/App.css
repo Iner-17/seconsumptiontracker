@@ -4,7 +4,7 @@
 
 @theme {
   --font-mont: Montserrat, "sans-serif";
-  --color-lightblue: #def6ff;
+  --color-lightblue: #f8fbfd;
   --color-cta-blue: #187bfc;
   --color-font-black: #252323;
 }
@@ -15,5 +15,6 @@
 
 body {
   @apply font-mont;
-  background-color: #def6ff;
+  background-color: #f8fbfd;
+
 }
